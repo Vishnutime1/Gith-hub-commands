@@ -1,0 +1,89 @@
+# Essential Git Commands
+
+This document provides a concise guide to essential Git commands, structured for quick reference and ease of understanding.
+
+## Initialization
+
+```bash
+git init
+```
+Initializes a new Git repository.
+
+## Cloning
+
+```bash
+git clone [url]
+```
+Clones a repository from the given URL.
+
+## Status Check
+
+```bash
+git status
+```
+Shows the working tree status.
+
+## Adding Changes
+
+```bash
+git add [file]
+```
+Stages changes for commit.
+
+## Committing Changes
+
+```bash
+git commit -m "message"
+```
+Records changes to the repository.
+
+## Branching
+
+```bash
+git branch
+```
+Lists branches.
+
+```bash
+git branch [branch_name]
+```
+Creates a new branch.
+
+## Switching Branches
+
+```bash
+git checkout [branch_name]
+```
+Switches to a branch.
+
+## Merging
+
+```bash
+git merge [branch_name]
+```
+Merges the specified branch into the current branch.
+
+## Pulling
+
+```bash
+git pull
+```
+Fetches and integrates changes from the remote repository.
+
+## Pushing
+
+```bash
+git push
+```
+Updates the remote repository with local commits.
+
+## Viewing Logs
+
+```bash
+git log
+```
+Displays the commit history.
+
+---
+
+This guide is intended to help both new and experienced developers manage their code effectively using Git. Feel free to contribute or suggest updates!
